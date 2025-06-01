@@ -1,4 +1,4 @@
-package readerwriter;
+package core.readerwriter;
 
 public class Writer extends Thread {
     private ReaderWriterMonitor monitor;

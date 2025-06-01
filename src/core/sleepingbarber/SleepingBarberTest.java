@@ -1,4 +1,4 @@
-package sleepingbarber;
+package core.sleepingbarber;
 
 public class SleepingBarberTest {
     public static void main(String[] args) {

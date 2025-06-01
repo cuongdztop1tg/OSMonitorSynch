@@ -1,4 +1,4 @@
-package bathroomproblem;
+package core.bathroomproblem;
 
 public class BathroomProblemTest {
     public static void main(String[] args) {

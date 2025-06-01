@@ -1,4 +1,4 @@
-package producerconsumer;
+package core.producerconsumer;
 
 public class ProducerConsumerTest {
     public static void main(String[] args) {

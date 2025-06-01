@@ -1,4 +1,4 @@
-package readerwriter;
+package core.readerwriter;
 
 public class ReaderWriterTest {
     public static void main(String[] args) {

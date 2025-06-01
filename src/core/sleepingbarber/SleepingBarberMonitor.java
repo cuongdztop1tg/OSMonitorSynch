@@ -1,6 +1,6 @@
-package sleepingbarber;
+package core.sleepingbarber;
 
-import monitor.Monitor;
+import core.monitor.Monitor;
 
 import java.util.LinkedList;
 import java.util.Queue;

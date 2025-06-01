@@ -1,4 +1,4 @@
-package diningphilosopher;
+package core.diningphilosopher;
 
 /**
  * Represents a Philosopher thread in the Dining Philosopher problem.

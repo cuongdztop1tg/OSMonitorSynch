@@ -1,6 +1,6 @@
-package readerwriter;
+package core.readerwriter;
 
-import monitor.Monitor;
+import core.monitor.Monitor;
 import java.util.concurrent.locks.Condition;
 
 public class ReaderWriterMonitor extends Monitor {

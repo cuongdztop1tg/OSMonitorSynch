@@ -1,4 +1,4 @@
-package bathroomproblem;
+package core.bathroomproblem;
 
 public class Female extends Thread {
     private final BathroomProblemMonitor monitor;

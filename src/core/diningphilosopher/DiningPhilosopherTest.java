@@ -1,4 +1,4 @@
-package diningphilosopher;
+package core.diningphilosopher;
 
 public class DiningPhilosopherTest {
     public static void main(String[] args) {

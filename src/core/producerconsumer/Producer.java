@@ -1,4 +1,4 @@
-package producerconsumer;
+package core.producerconsumer;
 
 /**
  * Represents a producer thread in the Producer-Consumer problem.

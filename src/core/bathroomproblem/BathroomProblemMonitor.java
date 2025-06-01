@@ -1,6 +1,6 @@
-package bathroomproblem;
+package core.bathroomproblem;
 
-import monitor.Monitor;
+import core.monitor.Monitor;
 
 import java.util.concurrent.locks.Condition;
 

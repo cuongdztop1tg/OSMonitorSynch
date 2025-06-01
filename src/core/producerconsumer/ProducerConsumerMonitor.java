@@ -1,6 +1,6 @@
-package producerconsumer;
+package core.producerconsumer;
 
-import monitor.Monitor;
+import core.monitor.Monitor;
 
 import java.util.LinkedList;
 import java.util.Queue;

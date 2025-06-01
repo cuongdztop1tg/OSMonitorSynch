@@ -1,12 +1,12 @@
-package diningphilosopher;
+package core.diningphilosopher;
 
-import monitor.Monitor;
+import core.monitor.Monitor;
 
 import java.util.concurrent.locks.Condition;
 
 /**
  * - Implementation of the Monitor of the Dining Philosopher problem. <br>
- * - Inherits from {@link monitor.Monitor}
+ * - Inherits from {@link core.monitor.Monitor}
  */
 public class DiningPhilosopherMonitor extends Monitor {
     public enum State {EATING, THINKING, HUNGRY};

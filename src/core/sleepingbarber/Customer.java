@@ -1,4 +1,4 @@
-package sleepingbarber;
+package core.sleepingbarber;
 
 /**
  * Represents a customer in the Sleeping barber problem
