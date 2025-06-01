@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" prefHeight="270.0" prefWidth="550.0" spacing="20" style="-fx-background-color: #f0f0f0; -fx-padding: 20;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+
+    <!-- Title -->
+    <Text style="-fx-font-weight: bold;" text="Monitor-based synchronization" textAlignment="CENTER">
+        <font>
+            <Font name="Arial" size="30.0" />
+        </font>
+    </Text>
+
+    <!-- Row 1 -->
+    <HBox alignment="CENTER" spacing="20">
+        <Button onAction="#btnDiningPhilosopherPressed" prefHeight="40" prefWidth="200" style="-fx-font-size: 14px; -fx-background-color: #4a90e2; -fx-text-fill: white;" text="Dining Philosopher" />
+        <Button onAction="#btnProducerConsumerPressed" prefHeight="40" prefWidth="200" style="-fx-font-size: 14px; -fx-background-color: #4a90e2; -fx-text-fill: white;" text="Producer-Consumer" />
+    </HBox>
+
+    <!-- Row 2 -->
+    <HBox alignment="CENTER" spacing="20">
+        <Button onAction="#btnReadersWritersPressed" prefHeight="40" prefWidth="200" style="-fx-font-size: 14px; -fx-background-color: #4a90e2; -fx-text-fill: white;" text="Readers Writers" />
+        <Button onAction="#btnSleepingBarberPressed" prefHeight="40" prefWidth="200" style="-fx-font-size: 14px; -fx-background-color: #4a90e2; -fx-text-fill: white;" text="Sleeping Barber" />
+    </HBox>
+
+    <!-- Row 3 (centered single button) -->
+    <HBox alignment="CENTER">
+        <Button onAction="#btnBathroomProblemPressed" prefHeight="40" prefWidth="200" style="-fx-font-size: 14px; -fx-background-color: #4a90e2; -fx-text-fill: white;" text="Bathroom problem" />
+    </HBox>
+
+</VBox>
