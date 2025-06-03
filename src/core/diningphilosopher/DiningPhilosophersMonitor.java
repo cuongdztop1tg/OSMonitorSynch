@@ -8,13 +8,13 @@ import java.util.concurrent.locks.Condition;
  * - Implementation of the Monitor of the Dining Philosopher problem. <br>
  * - Inherits from {@link core.monitor.Monitor}
  */
-public class DiningPhilosopherMonitor extends Monitor {
+public class DiningPhilosophersMonitor extends Monitor {
     public enum State {EATING, THINKING, HUNGRY};
     private final State[] states;
     private final int numOfPhilosophers;
     private final Condition[] self;
 
-    public DiningPhilosopherMonitor(int numOfPhilosophers) {
+    public DiningPhilosophersMonitor(int numOfPhilosophers) {
         this.numOfPhilosophers = numOfPhilosophers;
         this.states = new State[numOfPhilosophers];
         this.self = new Condition[numOfPhilosophers];
