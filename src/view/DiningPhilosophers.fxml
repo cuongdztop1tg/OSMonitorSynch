@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.DiningPhilosophersController">
+
+    <!-- Bàn tròn ở giữa -->
+    <Circle centerX="300.0" centerY="250.0" fill="#caa472" radius="120.0" />
+
+    <!-- Đĩa cho mỗi triết gia -->
+    <Circle centerX="300.0" centerY="160.0" fill="#ffffff" radius="20.0" stroke="gray" />
+    <Circle centerX="395.0" centerY="205.0" fill="#ffffff" layoutX="-17.0" layoutY="14.0" radius="20.0" stroke="gray" />
+    <Circle centerX="350.0" centerY="320.0" fill="#ffffff" radius="20.0" stroke="gray" />
+    <Circle centerX="250.0" centerY="320.0" fill="#ffffff" radius="20.0" stroke="gray" />
+    <Circle centerX="205.0" centerY="205.0" fill="#ffffff" layoutX="14.0" layoutY="14.0" radius="20.0" stroke="gray" />
+
+    <!-- Philosopher 0 (Top) -->
+    <Circle fx:id="philosopher0" centerX="300.0" centerY="100.0" fill="#d6d6d6" layoutX="-1.0" layoutY="-19.0" radius="40.0" />
+    <Label fx:id="state0" layoutX="262.0" layoutY="10.0" text="Thinking">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
+
+    <!-- Philosopher 1 (Top-Right) -->
+    <Circle fx:id="philosopher1" centerX="460.0" centerY="190.0" fill="#d6d6d6" radius="40.0" />
+    <Label fx:id="state1" layoutX="510.0" layoutY="175.0" text="Thinking">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
+
+    <!-- Philosopher 2 (Bottom-Right) -->
+    <Circle fx:id="philosopher2" centerX="390.0" centerY="390.0" fill="#d6d6d6" radius="40.0" />
+    <Label fx:id="state2" layoutX="352.0" layoutY="435.0" text="Thinking">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
+
+    <!-- Philosopher 3 (Bottom-Left) -->
+    <Circle fx:id="philosopher3" centerX="210.0" centerY="390.0" fill="#d6d6d6" radius="40.0" />
+    <Label fx:id="state3" layoutX="172.0" layoutY="435.0" text="Thinking">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
+
+    <!-- Philosopher 4 (Top-Left) -->
+    <Circle fx:id="philosopher4" centerX="140.0" centerY="190.0" fill="#d6d6d6" radius="40.0" />
+    <Label fx:id="state4" layoutX="14.0" layoutY="174.0" text="Thinking">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
+
+    <!-- Forks -->
+    <!-- Fork between P0 and P1 -->
+    <Rectangle fx:id="fork0" fill="gray" height="40.0" layoutX="347.0" layoutY="161.0" rotate="36.0" width="6.0" />
+
+    <!-- Fork between P1 and P2 -->
+    <Rectangle fx:id="fork1" fill="gray" height="40.0" layoutX="375.0" layoutY="255.0" rotate="108.0" width="6.0" />
+
+    <!-- Fork between P2 and P3 -->
+    <Rectangle fx:id="fork2" fill="gray" height="40.0" layoutX="297.0" layoutY="309.0" rotate="180.0" width="6.0" />
+
+    <!-- Fork between P3 and P4 -->
+    <Rectangle fx:id="fork3" fill="gray" height="40.0" layoutX="216.0" layoutY="255.0" rotate="252.0" width="6.0" />
+
+    <!-- Fork between P4 and P0 -->
+    <Rectangle fx:id="fork4" fill="gray" height="40.0" layoutX="247.0" layoutY="161.0" rotate="324.0" width="6.0" />
+    <Button layoutX="106.0" layoutY="492.0" mnemonicParsing="false" onAction="#btnStartPressed" prefHeight="41.0" prefWidth="104.0" style="-fx-background-color: #4a90e2;" text="Start" textFill="WHITE">
+        <font>
+            <Font name="Arial" size="18.0" />
+        </font>
+    </Button>
+    <Button layoutX="390.0" layoutY="492.0" mnemonicParsing="false" onAction="#btnBackPressed" prefHeight="42.0" prefWidth="104.0" style="-fx-background-color: #4a90e2;" text="Back" textFill="WHITE">
+        <font>
+            <Font name="Arial" size="18.0" />
+        </font>
+    </Button>
+   <Button layoutX="247.0" layoutY="492.0" mnemonicParsing="false" onAction="#btnStopPressed" prefHeight="42.0" prefWidth="104.0" style="-fx-background-color: #4a90e2;" text="Stop" textFill="WHITE">
+      <font>
+         <Font name="Arial" size="18.0" />
+      </font>
+   </Button>
+</AnchorPane>
