@@ -20,7 +20,7 @@ public class MainMenuController {
 
     @FXML
     void btnDiningPhilosopherPressed(ActionEvent event) {
-        loadScene("DiningPhilosopher.fxml", event);
+        loadScene("DiningPhilosophers.fxml", event);
     }
 
     @FXML
